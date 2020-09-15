@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="portfolio developpeur WEB" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <title>SaidSana-Portfolio Developpeur Web</title>
+  </head>
+
+  <body>
+    <header>
+      <h3 id="SAIDSANA">SAID SANA</h3>
+      <nav>
+        <a href="index.html" class="lien">ACCUEIL</a>
+        <a href="#contact" class="lien">CONTACT</a>
+        <a href="#qui-suis-je" class="lien" id="QSJ">QUISUIS-JE?</a>
+        <a href="#competance" class="lien">COMPETANCE</a>
+      </nav>
+    </header>
+
+    <main>
+      <article id="article">
+        <center><h1>VOUS CHERCHEZ UN DEVELOPPEUR WEB?</h1></center>
+        <center><h2>ET BEIN VOUS ETES SUR LA BONNE ADRESSE!!</h2></center>
+      </article>
+      <!-- <article>
+        <img
+          src="img/cerveauhumain.jpg"
+          id="cerveau"
+          alt="image"
+          width="600"
+          id="image"
+        />
+      </article>-->
+
+      <div id="qui-suis-je">
+        <p id="paragraphe">
+          Hello, moi c’est SAID SANA, 34 ans, mariée et maman d’une jolie fille
+          et d’un beau garçon.je suis pationnée par le web. Je vous présente mon
+          portfolio qui retrace mon parcour professionnel avec plus de
+          précision.<br />
+          Veuillez consulter mon CV<br /><br />
+          <button id="boutoncv"><a href="CV.html">Curriculum Vitae</a></button>
+        </p>
+      </div>
+
+      <div class="competance">
+        <h4 >
+          LANGAGES DE PROGRAMMATION GUE JE METRISE:
+        </h4>
+      
+        <ul class="liste" >
+          <li>javascript</li>
+          <li>PHP</li>
+          <li>ANGULAR</li>
+        </ul>
+      </div>
+
+      <article>
+        <h4 id="contact">N'HESITER PAS A ME CONTACTER:</h4>
+        <form>
+          <div><label class="labels" for="">NOM:</label>  <input type="text" name="nom" /></div>
+          <div><label class="labels" for="">PRENOM:</label>  <input type="text" name="prenom" /></div>
+          <div>
+            <input type="radio" id="femme" name="KK" />
+            <label for="femme">FEMME</label>
+            <input type="radio" id="homme" name="KK" />
+            <label for="homme">HOMME</label>
+          </div>
+
+          <div>DATE DE NAISSANCE: <input type="date" name="date" /></div>
+          <div>MAIL: <input type="email" name="mail" /></div>
+          <div>MOT DE PASSE: <input type="password" name="password" /></div>
+          <div>CONTACT: <input type="number" name="numero" /></div>
+          <div>
+            VILLE:
+            <select>
+              <option value="monastir">MONASTIR</option>
+              <option value="sousse">SOUSSE</option>
+              <option value="tunis">TUNIS</option>
+              <option value="nabeul">NABEUL</option>
+              <option value="mahdia">MAHDIA</option>
+            </select>
+            <div>Saisir Votre Message:<input type="text"</div>
+
+            <button id="btn">ENVOYER</button>
+          </div>
+        </form>
+      </article>
+      <br />
+      <!--<iframe
+        width="500"
+        height="300"
+        src="https://www.youtube.com/embed/5YGGFLeH9Ng"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>-->
+    </main>
+    <footer>Coyright@2020/Said Sana</footer>
+  </body>
+</html>
